@@ -1,8 +1,26 @@
 # Weyland-Yutani Theme for Home Assistant
 # Inspired by the computer terminals and aesthetic from the Alien film series
 # Dark industrial design with green/amber terminal-style interface
+# Typography inspired by "Typeset in the Future: Alien" article
 
 weylandyutani:
+  # Typography - Fonts inspired by Alien movie design
+  # Based on https://typesetinthefuture.com/2014/12/01/alien/
+  # Primary font: Orbitron (Eurostile-like for technical displays)
+  # Display font: Thedus (authentic Alien movie display font)
+  # Body font: Montserrat (Futura-like for readability)
+  # Code font: IBM Plex Mono (Terminal displays)
+  primary-font-family: "'Orbitron', 'Rajdhani', 'Helvetica Neue', Helvetica, Arial, sans-serif"
+  paper-font-common-base_-_font-family: "'Orbitron', 'Rajdhani', 'Helvetica Neue', Helvetica, Arial, sans-serif"
+  paper-font-common-code_-_font-family: "'IBM Plex Mono', 'Share Tech Mono', 'Courier New', Courier, monospace"
+  paper-font-body1_-_font-family: "'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif"
+  paper-font-subhead_-_font-family: "'Orbitron', 'Rajdhani', 'Helvetica Neue', Helvetica, Arial, sans-serif"
+  paper-font-headline_-_font-family: "'Thedus', 'Audiowide', 'Orbitron', 'Helvetica Neue', Helvetica, Arial, sans-serif"
+  paper-font-caption_-_font-family: "'Rajdhani', 'Helvetica Neue', Helvetica, Arial, sans-serif"
+  paper-font-title_-_font-family: "'Thedus', 'Audiowide', 'Orbitron', 'Helvetica Neue', Helvetica, Arial, sans-serif"
+  ha-card-header-font-family: "'Thedus', 'Audiowide', 'Orbitron', 'Helvetica Neue', Helvetica, Arial, sans-serif"
+  
+
   # Main colors - dark industrial with green terminal accents
   primary-color: "#00ff41"                    # Bright terminal green
   accent-color: "#00ff41"                     # Matching green accent
@@ -143,3 +161,16 @@ weylandyutani:
   modes:
     light:
       primary-color: "#00ff41"
+  
+  # Load custom fonts from www directory
+  # Users need to add these lines to their configuration.yaml to enable fonts:
+  # lovelace:
+  #   resources:
+  #     - url: /local/fonts/alien-fonts.css
+  #       type: css
+  card-mod-theme: weylandyutani
+  card-mod-root: |
+    @import url('/local/fonts/alien-fonts.css');
+    body {
+      font-family: 'Orbitron', 'Rajdhani', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }

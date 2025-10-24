@@ -78,7 +78,13 @@ This theme recreates the look and feel of the Weyland-Yutani corporation's compu
 
 ## Screenshots
 
-_Screenshots coming soon_
+![Weyland-Yutani Theme Preview](https://github.com/user-attachments/assets/b87cab23-3196-4555-a2a3-0736c6d4dd67)
+
+The theme features:
+- Dark industrial backgrounds with terminal green text
+- High contrast for excellent readability
+- Retro CRT monitor aesthetic
+- Complete theming of all UI components
 
 ## Compatibility
 

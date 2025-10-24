@@ -166,11 +166,11 @@ weylandyutani:
   # Users need to add these lines to their configuration.yaml to enable fonts:
   # lovelace:
   #   resources:
-  #     - url: /local/themes/fonts/alien-fonts.css
+  #     - url: /local/fonts/alien-fonts.css
   #       type: css
   card-mod-theme: weylandyutani
   card-mod-root: |
-    @import url('/local/themes/fonts/alien-fonts.css');
+    @import url('/local/fonts/alien-fonts.css');
     body {
       font-family: 'Orbitron', 'Rajdhani', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     }

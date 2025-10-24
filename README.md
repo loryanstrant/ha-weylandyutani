@@ -15,6 +15,7 @@ Transform your Home Assistant interface into a Weyland-Yutani corporation termin
 - 💚 **Terminal Green Interface**: Bright green (#00FF41) text and accents like classic CRT monitors  
 - 🏢 **Corporate Aesthetic**: Clean, professional look fitting for a mega-corporation
 - 🚀 **Retro-Futuristic Feel**: Combines 1970s/80s computer terminal aesthetics with modern UI design
+- 🔤 **Authentic Typography**: Fonts inspired by the actual Alien movie design (based on Typeset in the Future analysis)
 - ✅ **Complete Coverage**: All Home Assistant UI elements are themed consistently
 
 ## Installation
@@ -75,6 +76,29 @@ This theme recreates the look and feel of the Weyland-Yutani corporation's compu
 - **Industrial Design**: Dark, utilitarian interface fitting for a spacecraft or research facility  
 - **High Contrast**: Excellent readability with bright text on dark backgrounds
 - **Subtle Effects**: Green-tinted shadows and glows for depth
+- **Authentic Typography**: Fonts inspired by the [Typeset in the Future: Alien](https://typesetinthefuture.com/2014/12/01/alien/) analysis
+
+### Typography
+
+The theme includes fonts inspired by those used in the Alien films:
+
+- **Display Headers**: Audiowide (similar to Thedus, the custom font from Alien)
+- **Technical Interface**: Orbitron (similar to Eurostile, used in technical displays)
+- **Body Text**: Montserrat (similar to Futura, used throughout the film)
+- **Terminal/Code**: IBM Plex Mono (monospace font for technical readability)
+- **Alternative Technical**: Rajdhani (additional sci-fi styling option)
+
+All fonts are loaded from Google Fonts and fall back to system fonts for optimal performance.
+
+#### Font Installation
+
+The fonts are automatically loaded when you apply the theme. For optimal performance:
+
+1. The theme uses Google Fonts CDN (no local installation needed)
+2. Fonts load asynchronously to prevent blocking
+3. System fonts provide instant fallbacks
+
+If you prefer to disable custom fonts, you can modify the theme YAML to remove the font-family definitions.
 
 ## Screenshots
 
@@ -107,6 +131,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 
 - Inspired by the Alien film series and the Weyland-Yutani corporation
+- Typography inspired by [Typeset in the Future: Alien](https://typesetinthefuture.com/2014/12/01/alien/) by Dave Addey
+- Fonts sourced from Google Fonts (Audiowide, Orbitron, Montserrat, IBM Plex Mono, Rajdhani, Share Tech Mono)
 - Created for the Home Assistant community
 
 ## Support

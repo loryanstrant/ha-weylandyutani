@@ -8,6 +8,7 @@ A dark, industrial Home Assistant theme inspired by the computer terminals and a
 - **Terminal Green Interface**: Bright green (#00FF41) text and accents like classic CRT monitors
 - **Corporate Aesthetic**: Clean, professional look fitting for a mega-corporation
 - **Retro-Futuristic Feel**: Combines 1970s/80s computer terminal aesthetics with modern UI design
+- **Authentic Typography**: Fonts inspired by the actual Alien movie design (Thedus, Futura, Eurostile styles)
 - **Complete Coverage**: All Home Assistant UI elements are themed consistently
 
 ## Theme Characteristics
@@ -15,7 +16,11 @@ A dark, industrial Home Assistant theme inspired by the computer terminals and a
 - **Primary Color**: Terminal green (#00FF41) for text and interactive elements
 - **Background**: Very dark industrial blacks and grays
 - **Accents**: Amber warnings and red errors for system alerts
-- **Typography**: Optimized for readability with high-contrast terminal colors
+- **Typography**: Authentic fonts inspired by [Typeset in the Future: Alien](https://typesetinthefuture.com/2014/12/01/alien/)
+  - Display: Audiowide (Thedus-style)
+  - Technical: Orbitron (Eurostile-style)
+  - Body: Montserrat (Futura-style)
+  - Terminal: IBM Plex Mono
 - **Shadows**: Subtle green glows for depth and futuristic feel
 
 ## Preview

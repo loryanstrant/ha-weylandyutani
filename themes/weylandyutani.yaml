@@ -7,7 +7,7 @@ weylandyutani:
   # Typography - Fonts inspired by Alien movie design
   # Based on https://typesetinthefuture.com/2014/12/01/alien/
   # Primary font: Orbitron (Eurostile-like for technical displays)
-  # Display font: Audiowide (Thedus-like for headers and emphasis)
+  # Display font: Thedus (authentic Alien movie display font)
   # Body font: Montserrat (Futura-like for readability)
   # Code font: IBM Plex Mono (Terminal displays)
   primary-font-family: "'Orbitron', 'Rajdhani', 'Helvetica Neue', Helvetica, Arial, sans-serif"
@@ -15,10 +15,10 @@ weylandyutani:
   paper-font-common-code_-_font-family: "'IBM Plex Mono', 'Share Tech Mono', 'Courier New', Courier, monospace"
   paper-font-body1_-_font-family: "'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif"
   paper-font-subhead_-_font-family: "'Orbitron', 'Rajdhani', 'Helvetica Neue', Helvetica, Arial, sans-serif"
-  paper-font-headline_-_font-family: "'Audiowide', 'Orbitron', 'Helvetica Neue', Helvetica, Arial, sans-serif"
+  paper-font-headline_-_font-family: "'Thedus', 'Audiowide', 'Orbitron', 'Helvetica Neue', Helvetica, Arial, sans-serif"
   paper-font-caption_-_font-family: "'Rajdhani', 'Helvetica Neue', Helvetica, Arial, sans-serif"
-  paper-font-title_-_font-family: "'Audiowide', 'Orbitron', 'Helvetica Neue', Helvetica, Arial, sans-serif"
-  ha-card-header-font-family: "'Audiowide', 'Orbitron', 'Helvetica Neue', Helvetica, Arial, sans-serif"
+  paper-font-title_-_font-family: "'Thedus', 'Audiowide', 'Orbitron', 'Helvetica Neue', Helvetica, Arial, sans-serif"
+  ha-card-header-font-family: "'Thedus', 'Audiowide', 'Orbitron', 'Helvetica Neue', Helvetica, Arial, sans-serif"
   
 
   # Main colors - dark industrial with green terminal accents

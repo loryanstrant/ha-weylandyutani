@@ -80,15 +80,15 @@ This theme recreates the look and feel of the Weyland-Yutani corporation's compu
 
 ### Typography
 
-The theme includes fonts inspired by those used in the Alien films:
+The theme now includes the authentic Thedus font from the Alien movie, along with carefully selected alternatives:
 
-- **Display Headers**: Audiowide (similar to Thedus, the custom font from Alien)
+- **Display Headers**: Thedus (the actual custom display font from Alien) with 6 variants (Wide, Condensed, Stencil)
 - **Technical Interface**: Orbitron (similar to Eurostile, used in technical displays)
 - **Body Text**: Montserrat (similar to Futura, used throughout the film)
 - **Terminal/Code**: IBM Plex Mono (monospace font for technical readability)
 - **Alternative Technical**: Rajdhani (additional sci-fi styling option)
 
-All fonts are loaded from Google Fonts and fall back to system fonts for optimal performance.
+The Thedus font is loaded locally, while other fonts are loaded from Google Fonts with system font fallbacks for optimal performance.
 
 #### Font Installation
 
@@ -137,6 +137,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Inspired by the Alien film series and the Weyland-Yutani corporation
 - Typography inspired by [Typeset in the Future: Alien](https://typesetinthefuture.com/2014/12/01/alien/) by Dave Addey
+- Thedus font: Authentic Alien movie display font (free for desktop use)
 - Fonts sourced from Google Fonts (Audiowide, Orbitron, Montserrat, IBM Plex Mono, Rajdhani, Share Tech Mono)
 - Created for the Home Assistant community
 

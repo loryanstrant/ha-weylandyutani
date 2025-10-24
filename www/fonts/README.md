@@ -4,12 +4,17 @@ This directory contains the font configuration for the Weyland-Yutani Home Assis
 
 ## Font Selections
 
-Based on the detailed typographic analysis of the Alien movie, we've selected Google Fonts alternatives that capture the aesthetic of the original fonts:
+Based on the detailed typographic analysis of the Alien movie, this theme now includes the authentic fonts and carefully selected alternatives:
 
-### Display Font: Audiowide
-**Original**: Thedus (custom display font)  
+### Display Font: Thedus (Authentic)
+**Type**: Original Alien movie display font  
 **Purpose**: Large headers, titles, and emphasis text  
-**Why**: Audiowide captures the bold, geometric, retro-futuristic feel of Thedus with its wide letterforms and distinctive style.
+**Why**: Thedus is the actual custom display font used in the Alien film, providing authentic movie typography. The theme includes multiple variants:
+- Thedus Wide (regular and light)
+- Thedus Condensed (regular and light)
+- Thedus Stencil (wide and condensed)
+
+**Fallback**: Audiowide provides a similar aesthetic if the local font fails to load.
 
 ### Technical Interface: Orbitron
 **Original**: Eurostile Extended  
@@ -38,15 +43,20 @@ Based on the detailed typographic analysis of the Alien movie, we've selected Go
 
 ## Font Loading
 
-All fonts are loaded from Google Fonts CDN via the `alien-fonts.css` file. This approach:
-- Requires no local font files
-- Provides automatic caching and optimization
+The theme uses a hybrid approach for font loading:
+- **Thedus**: Loaded locally from the `www/fonts/` directory in OTF format
+- **Google Fonts**: Orbitron, Montserrat, IBM Plex Mono, Rajdhani, and Share Tech Mono are loaded from Google Fonts CDN
+- **Audiowide**: Kept as a fallback for Thedus if local font fails to load
+
+This approach:
+- Provides the authentic Alien movie font experience
+- Maintains automatic caching and optimization for web fonts
 - Falls back to system fonts for instant rendering
 - Uses the `display=swap` parameter for better loading performance
 
 ## Typography Hierarchy
 
-1. **Titles/Headers**: Audiowide (Thedus-style)
+1. **Titles/Headers**: Thedus (authentic Alien display font) with Audiowide fallback
 2. **Interface/Technical**: Orbitron (Eurostile-style)
 3. **Body/Readable**: Montserrat (Futura-style)
 4. **Code/Terminal**: IBM Plex Mono
@@ -54,7 +64,15 @@ All fonts are loaded from Google Fonts CDN via the `alien-fonts.css` file. This 
 
 ## Licensing
 
-All fonts used are open-source and available under the SIL Open Font License (OFL):
+Fonts used in this theme:
+
+### Thedus Font
+- **License**: Free for desktop use (see `Desktop Commercial Use License.pdf`)
+- **Source**: Original Alien movie display font
+- **Files**: 6 variants included (Wide, Condensed, Stencil in regular and light weights)
+
+### Google Fonts (SIL Open Font License)
+All Google Fonts used are open-source and available under the SIL Open Font License (OFL):
 - Audiowide by Astigmatic
 - Orbitron by The League of Moveable Type
 - Montserrat by Julieta Ulanovsky

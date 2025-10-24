@@ -98,14 +98,19 @@ The fonts are automatically loaded when you apply the theme. For optimal perform
 2. Fonts load asynchronously to prevent blocking
 3. System fonts provide instant fallbacks
 
+For detailed installation instructions and troubleshooting, see [www/fonts/INSTALLATION.md](www/fonts/INSTALLATION.md).
+
 If you prefer to disable custom fonts, you can modify the theme YAML to remove the font-family definitions.
 
 ## Screenshots
 
 ![Weyland-Yutani Theme Preview](https://github.com/user-attachments/assets/b87cab23-3196-4555-a2a3-0736c6d4dd67)
 
+![Typography Demonstration](https://github.com/user-attachments/assets/370ffeea-e1ee-4804-a327-234b3baa7225)
+
 The theme features:
 - Dark industrial backgrounds with terminal green text
+- Authentic Alien movie typography
 - High contrast for excellent readability
 - Retro CRT monitor aesthetic
 - Complete theming of all UI components

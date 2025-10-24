@@ -80,27 +80,97 @@ This theme recreates the look and feel of the Weyland-Yutani corporation's compu
 
 ### Typography
 
-The theme now includes the authentic Thedus font from the Alien movie, along with carefully selected alternatives:
+The theme includes authentic typography inspired by [Typeset in the Future: Alien](https://typesetinthefuture.com/2014/12/01/alien/), providing an authentic recreation of the film's iconic computer displays:
 
-- **Display Headers**: Thedus (the actual custom display font from Alien) with 6 variants (Wide, Condensed, Stencil)
-- **Technical Interface**: Orbitron (similar to Eurostile, used in technical displays)
-- **Body Text**: Montserrat (similar to Futura, used throughout the film)
-- **Terminal/Code**: IBM Plex Mono (monospace font for technical readability)
-- **Alternative Technical**: Rajdhani (additional sci-fi styling option)
+- **Display Headers**: **Thedus** (the actual custom display font from Alien) with 6 variants (Wide, Condensed, Stencil in regular and light weights)
+- **Technical Interface**: **Orbitron** (similar to Eurostile, used extensively in the film's technical displays)
+- **Body Text**: **Montserrat** (similar to Futura, used throughout the film)
+- **Terminal/Code**: **IBM Plex Mono** (monospace font for technical readability with a retro feel)
+- **Alternative Technical**: **Rajdhani** (additional sci-fi styling option for captions and small text)
+- **Alternative Terminal**: **Share Tech Mono** (retro-terminal monospace option)
 
-The Thedus font is loaded locally, while other fonts are loaded from Google Fonts with system font fallbacks for optimal performance.
+The Thedus font files are loaded locally from the theme, while other fonts load from Google Fonts CDN with system font fallbacks for optimal performance.
 
-#### Font Installation
+#### Font Details
 
-The fonts are automatically loaded when you apply the theme. For optimal performance:
+The Thedus font provides the authentic Alien movie display typography with 6 variants:
+- **Thedus Wide** (regular and light weights) - The main display font
+- **Thedus Condensed** (regular and light weights) - Narrower variant for space-constrained layouts
+- **Thedus Stencil** (wide and condensed) - Stylized variant with stencil cutouts
 
-1. The theme uses Google Fonts CDN (no local installation needed)
-2. Fonts load asynchronously to prevent blocking
-3. System fonts provide instant fallbacks
+These fonts are loaded locally from the theme's `www/fonts/` directory, while other fonts (Orbitron, Montserrat, IBM Plex Mono, Rajdhani, Share Tech Mono) are loaded from Google Fonts CDN.
 
-For detailed installation instructions and troubleshooting, see [www/fonts/INSTALLATION.md](www/fonts/INSTALLATION.md).
+#### Using the Fonts
 
-If you prefer to disable custom fonts, you can modify the theme YAML to remove the font-family definitions.
+The fonts are **automatically loaded** when you apply the theme - no additional configuration needed! The theme uses the `card-mod-root` directive to inject the font CSS automatically.
+
+**Font hierarchy:**
+- **Large headers/titles**: Thedus (with Audiowide fallback) for that authentic Alien movie look
+- **Interface elements**: Orbitron for technical displays and buttons
+- **Body text**: Montserrat for readable content
+- **Code/terminal**: IBM Plex Mono for monospace displays
+
+#### Manual Font Installation (Optional)
+
+If automatic loading doesn't work in your setup, you can manually add fonts as a Lovelace resource:
+
+1. Go to Settings → Dashboards → Resources (top right menu)
+2. Click "+ Add Resource"
+3. URL: `/local/fonts/alien-fonts.css`
+4. Resource type: Stylesheet
+5. Restart Home Assistant
+
+Or add to your `configuration.yaml`:
+
+```yaml
+lovelace:
+  resources:
+    - url: /local/fonts/alien-fonts.css
+      type: css
+```
+
+#### Verifying Fonts Are Working
+
+To verify fonts loaded correctly:
+1. Apply the Weyland-Yutani theme
+2. Open browser developer tools (F12)
+3. Go to Network tab and look for requests to `fonts.googleapis.com` and `/local/fonts/`
+4. Headers and titles should display in Thedus and Orbitron fonts
+
+#### Troubleshooting Fonts
+
+**Fonts not loading?**
+- Check browser console for errors (F12 → Console)
+- Clear browser cache and hard reload (Ctrl+Shift+R or Cmd+Shift+R)
+- Verify internet connectivity (Google Fonts require internet access)
+- Try the manual installation method above
+
+**Content Security Policy (CSP) errors?**
+Add to your `configuration.yaml`:
+```yaml
+http:
+  use_x_forwarded_for: true
+  trusted_proxies:
+    - 127.0.0.1
+```
+
+#### Disabling Custom Fonts
+
+To use system fonts instead:
+1. Edit `themes/weylandyutani.yaml`
+2. Remove or comment out the font-family definitions
+3. Remove or comment out the `card-mod-root` section
+4. Restart Home Assistant
+
+#### Font Licensing
+
+**Thedus Font:**
+- License: Free for desktop use (see `www/fonts/Desktop Commercial Use License.pdf`)
+- Source: Original Alien movie display font
+
+**Google Fonts:**
+All Google Fonts used are open-source under the SIL Open Font License (OFL):
+- Audiowide, Orbitron, Montserrat, IBM Plex Mono, Rajdhani, Share Tech Mono
 
 ## Screenshots
 

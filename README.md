@@ -1,22 +1,17 @@
+![License](https://img.shields.io/github/license/loryanstrant/ha-weylandyutani)
+![HACS](https://img.shields.io/badge/HACS-Default-orange.svg)
+
+
 # Weyland-Yutani Theme for Home Assistant
 
 A dark, industrial Home Assistant theme inspired by the computer terminals and aesthetic from the Alien film series, themed around the Weyland-Yutani corporation.
-
-![License](https://img.shields.io/github/license/loryanstrant/ha-weylandyutani)
-![HACS](https://img.shields.io/badge/HACS-Default-orange.svg)
 
 ## Overview
 
 Transform your Home Assistant interface into a Weyland-Yutani corporation terminal with this retro-futuristic theme. Features terminal green text on authentic CRT-style brown-tinted backgrounds, reminiscent of the iconic computer screens from the USCSS Nostromo and other Weyland-Yutani installations.
 
-## ✨ What's New in v2.0
+<img width="707" height="191" alt="image" src="https://github.com/user-attachments/assets/1afbf466-27f0-4632-bfee-c686998db578" />
 
-- **🎨 Enhanced Typography System**: Complete font hierarchy using authentic Thedus variants inspired by [Typeset in the Future: Alien](https://typesetinthefuture.com/2014/12/01/alien/)
-- **🖥️ Authentic CRT Background**: Dark brown/sepia tint mimicking vintage monochrome terminals
-- **🟢 Unified Icon Coloring**: All icons now properly colored in terminal green
-- **📐 Visual Hierarchy**: Different font sizes and weights for titles, values, and content
-- **🔲 Terminal Borders**: Card borders with green glow effects like classic displays
-- **⚡ Card-Mod Integration**: Advanced styling using HACS card-mod for shadow DOM piercing
 
 ## Features
 
@@ -27,6 +22,13 @@ Transform your Home Assistant interface into a Weyland-Yutani corporation termin
 - 🔤 **Film-Accurate Typography**: Complete Thedus font family with intelligent hierarchy
 - 🖼️ **Industrial Borders**: Card borders with glowing effects and technical separators
 - ✅ **Complete Coverage**: All Home Assistant UI elements themed consistently
+- 🎨 **Enhanced Typography System**: Complete font hierarchy using authentic Thedus variants inspired by [Typeset in the Future: Alien](https://typesetinthefuture.com/2014/12/01/alien/)
+- 🖥️ **Authentic CRT Background**: Dark brown/sepia tint mimicking vintage monochrome terminals
+- 🟢 **Unified Icon Coloring**: All icons now properly colored in terminal green
+- 📐 **Visual Hierarchy**: Different font sizes and weights for titles, values, and content
+- 🔲 **Terminal Borders**: Card borders with green glow effects like classic displays
+- ⚡ **Card-Mod Integration**: Advanced styling using HACS card-mod for shadow DOM piercing
+
 
 ## Installation
 
@@ -301,6 +303,9 @@ Contributions welcome! Please:
 ## About Weyland-Yutani
 
 The Weyland-Yutani Corporation (often called "The Company") is the fictional mega-corporation from the Alien film series, known for its advanced technology and distinctive green-screen computer terminals aboard spacecraft like the USCSS Nostromo and Sulaco.
+
+## Development Approach
+<img width="256" height="256" alt="Vibe Coding with GitHub Copilot 256x256" src="https://github.com/user-attachments/assets/bb41d075-6b3e-4f2b-a88e-94b2022b5d4f" />
 
 ## License
 

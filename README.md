@@ -6,6 +6,8 @@
 
 A dark, industrial Home Assistant theme inspired by the computer terminals and aesthetic from the Alien film series, themed around the Weyland-Yutani corporation.
 
+Pairs nicely with the [MU/TH/UR 6000](https://github.com/loryanstrant/ha-MU-TH-UR-6000-cards).
+
 ## Overview
 
 Transform your Home Assistant interface into a Weyland-Yutani corporation terminal with this retro-futuristic theme. Features terminal green text on authentic CRT-style brown-tinted backgrounds, reminiscent of the iconic computer screens from the USCSS Nostromo and other Weyland-Yutani installations.

@@ -6,7 +6,7 @@
 
 A dark, industrial Home Assistant theme inspired by the computer terminals and aesthetic from the Alien film series, themed around the Weyland-Yutani corporation.
 
-Pairs nicely with the [MU/TH/UR 6000](https://github.com/loryanstrant/ha-MU-TH-UR-6000-cards).
+Pairs nicely with the [MU/TH/UR 6000 series of cards](https://github.com/loryanstrant/ha-MU-TH-UR-6000-cards).
 
 ## Overview
 

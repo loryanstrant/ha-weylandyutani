@@ -1,176 +1,178 @@
-# Weyland-Yutani Theme for Home Assistant
-# Inspired by the computer terminals and aesthetic from the Alien film series
-# Dark industrial design with green/amber terminal-style interface
-# Typography inspired by "Typeset in the Future: Alien" article
-
+# Weyland-Yutani Theme
+# Inspired by Alien's USCSS Nostromo and corporate typography
 weylandyutani:
-  # Typography - Fonts inspired by Alien movie design
-  # Based on https://typesetinthefuture.com/2014/12/01/alien/
-  # Primary font: Orbitron (Eurostile-like for technical displays)
-  # Display font: Thedus (authentic Alien movie display font)
-  # Body font: Montserrat (Futura-like for readability)
-  # Code font: IBM Plex Mono (Terminal displays)
-  primary-font-family: "'Orbitron', 'Rajdhani', 'Helvetica Neue', Helvetica, Arial, sans-serif"
-  paper-font-common-base_-_font-family: "'Orbitron', 'Rajdhani', 'Helvetica Neue', Helvetica, Arial, sans-serif"
-  paper-font-common-code_-_font-family: "'IBM Plex Mono', 'Share Tech Mono', 'Courier New', Courier, monospace"
-  paper-font-body1_-_font-family: "'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif"
-  paper-font-subhead_-_font-family: "'Orbitron', 'Rajdhani', 'Helvetica Neue', Helvetica, Arial, sans-serif"
-  paper-font-headline_-_font-family: "'Thedus', 'Audiowide', 'Orbitron', 'Helvetica Neue', Helvetica, Arial, sans-serif"
-  paper-font-caption_-_font-family: "'Rajdhani', 'Helvetica Neue', Helvetica, Arial, sans-serif"
-  paper-font-title_-_font-family: "'Thedus', 'Audiowide', 'Orbitron', 'Helvetica Neue', Helvetica, Arial, sans-serif"
-  ha-card-header-font-family: "'Thedus', 'Audiowide', 'Orbitron', 'Helvetica Neue', Helvetica, Arial, sans-serif"
+  # Primary colors - Terminal green aesthetic
+  primary-color: '#00ff00'
+  accent-color: '#33ff33'
   
-
-  # Main colors - dark industrial with green terminal accents
-  primary-color: "#00ff41"                    # Bright terminal green
-  accent-color: "#00ff41"                     # Matching green accent
-  dark-primary-color: "#00b32e"              # Darker green for hover
-  light-primary-color: "#4dff7a"             # Lighter green for highlights
+  # Background colors - Dark brown/sepia like old CRT monitors
+  primary-background-color: '#0d0a08'
+  secondary-background-color: '#1a1410'
   
-  # Text colors - terminal style
-  primary-text-color: "#00ff41"              # Bright green text
-  text-primary-color: "#000000"              # Black text on bright backgrounds
-  secondary-text-color: "#00b32e"            # Dimmer green text
-  disabled-text-color: "#004d1a"             # Very dim green for disabled
-  label-badge-border-color: "#00ff41"        # Green borders
+  # Text colors
+  primary-text-color: '#00ff00'
+  secondary-text-color: '#33ff33'
+  text-primary-color: '#00ff00'
+  disabled-text-color: '#004400'
   
-  # Sidebar colors - dark industrial
-  sidebar-icon-color: "#00ff41"              # Green icons
-  sidebar-text-color: "#00ff41"              # Green text
-  sidebar-selected-text-color: "#ffffff"     # White when selected
-  sidebar-selected-icon-color: "#00ff41"     # Green icon when selected
-  sidebar-background-color: "#0a0a0a"        # Very dark background
+  # Header colors
+  app-header-background-color: '#0d0a08'
+  app-header-text-color: '#00ff00'
   
-  # Background colors - dark industrial/corporate
-  primary-background-color: "#121212"        # Main dark background
-  secondary-background-color: "#1a1a1a"      # Slightly lighter dark
-  divider-color: "#00ff41"                   # Green dividers
+  # Card colors - Dark brown tint
+  card-background-color: '#1a1410'
+  paper-card-background-color: '#1a1410'
   
-  # Card colors
-  card-background-color: "#1a1a1a"           # Dark card background
-  paper-card-background-color: "#1a1a1a"     # Paper card background
-  paper-dialog-background-color: "#1a1a1a"   # Dialog background
-  paper-listbox-background-color: "#1a1a1a"  # Listbox background
+  # Sidebar
+  sidebar-background-color: '#0d0a08'
+  sidebar-text-color: '#00ff00'
+  sidebar-icon-color: '#00ff00'
+  sidebar-selected-background-color: '#2a1f15'
+  sidebar-selected-icon-color: '#33ff33'
+  sidebar-selected-text-color: '#33ff33'
   
-  # Table colors
-  table-row-background-color: "#1a1a1a"      # Table row background
-  table-row-alternative-background-color: "#242424" # Alternate row
-  data-table-background-color: "#1a1a1a"     # Data table background
+  # State colors
+  state-active-color: '#33ff33'
+  state-inactive-color: '#004400'
+  state-icon-color: '#00ff00'
+  state-icon-active-color: '#33ff33'
   
-  # Navigation and header
-  app-header-background-color: "#0a0a0a"     # Very dark header
-  app-header-text-color: "#00ff41"           # Green header text
+  # Paper/Material colors for icons
+  paper-item-icon-color: '#00ff00'
+  paper-item-icon-active-color: '#33ff33'
   
-  # Switches and toggles
-  switch-unchecked-button-color: "#4d4d4d"   # Gray when off
-  switch-unchecked-track-color: "#262626"    # Dark gray track when off
-  switch-checked-button-color: "#00ff41"     # Green when on
-  switch-checked-track-color: "#00b32e"      # Dark green track when on
+  # Border
+  divider-color: '#2a1f15'
+  ha-card-border-color: '#004400'
   
-  # Sliders
-  paper-slider-knob-color: "#00ff41"         # Green knob
-  paper-slider-knob-start-color: "#00ff41"   # Green knob start
-  paper-slider-pin-color: "#00ff41"          # Green pin
-  paper-slider-active-color: "#00ff41"       # Green active slider
-  paper-slider-container-color: "#4d4d4d"    # Gray container
-  paper-slider-secondary-color: "#00b32e"    # Dark green secondary
-  
-  # Input fields
-  paper-input-container-color: "#4d4d4d"     # Gray input border
-  paper-input-container-focus-color: "#00ff41" # Green when focused
-  input-idle-line-color: "#4d4d4d"           # Gray idle line
-  input-hover-line-color: "#00b32e"          # Dark green hover
-  input-disabled-line-color: "#262626"       # Very dark gray disabled
-  input-outlined-idle-border-color: "#4d4d4d" # Gray outlined border
-  input-outlined-hover-border-color: "#00b32e" # Dark green outlined hover
-  input-fill-color: "#1a1a1a"                # Dark fill color
-  input-ink-color: "#00ff41"                 # Green text in input
-  input-label-ink-color: "#00b32e"           # Dark green label
-  input-disabled-ink-color: "#4d4d4d"        # Gray disabled text
-  input-dropdown-icon-color: "#00ff41"       # Green dropdown icon
-  
-  # Buttons
-  paper-item-icon-color: "#00ff41"           # Green item icons
-  paper-item-icon-active-color: "#4dff7a"    # Lighter green active
-  
-  # States and badges
-  state-icon-color: "#00ff41"                # Green state icons
-  state-icon-active-color: "#00ff41"         # Green active state
-  state-icon-unavailable-color: "#4d4d4d"    # Gray unavailable
-  
-  # Energy
-  energy-grid-consumption-color: "#00ff41"   # Green for grid consumption
-  energy-grid-return-color: "#00b32e"        # Dark green for return
-  
-  # Markdown
-  markdown-code-background-color: "#0a0a0a"  # Very dark code background
-  
-  # Success, warning, error colors - keeping corporate/industrial feel
-  success-color: "#00ff41"                   # Green for success
-  warning-color: "#ffaa00"                   # Amber warning (like CRT displays)
-  error-color: "#ff0000"                     # Red for errors (danger/alert)
-  info-color: "#00b3ff"                      # Blue for info
-  
-  # Additional styling
-  mdc-theme-primary: "#00ff41"               # Material primary
-  mdc-theme-secondary: "#00b32e"             # Material secondary
-  mdc-theme-background: "#121212"            # Material background
-  mdc-theme-surface: "#1a1a1a"               # Material surface
-  mdc-theme-on-primary: "#000000"            # Text on primary
-  mdc-theme-on-secondary: "#000000"          # Text on secondary
-  mdc-theme-on-surface: "#00ff41"            # Text on surface
-  
-  # RGB values for certain components
-  rgb-primary-color: "0, 255, 65"            # RGB green
-  rgb-accent-color: "0, 255, 65"             # RGB green
-  rgb-primary-text-color: "0, 255, 65"       # RGB green text
-  rgb-secondary-text-color: "0, 179, 46"     # RGB dark green
-  rgb-text-primary-color: "0, 0, 0"          # RGB black
-  
-  # Additional corporate styling
-  codemirror-keyword: "#00ff41"              # Green keywords
-  codemirror-operator: "#00b32e"             # Dark green operators
-  codemirror-variable: "#4dff7a"             # Light green variables
-  codemirror-variable-2: "#00ff41"           # Green variables
-  codemirror-variable-3: "#00b32e"           # Dark green variables
-  codemirror-builtin: "#00ff41"              # Green built-ins
-  codemirror-atom: "#ffaa00"                 # Amber atoms
-  codemirror-number: "#4dff7a"               # Light green numbers
-  codemirror-def: "#00ff41"                  # Green definitions
-  codemirror-string: "#4dff7a"               # Light green strings
-  codemirror-string-2: "#00b32e"             # Dark green strings
-  codemirror-comment: "#004d1a"              # Very dim green comments
-  codemirror-tag: "#00ff41"                  # Green tags
-  codemirror-meta: "#00b32e"                 # Dark green meta
-  codemirror-attribute: "#4dff7a"            # Light green attributes
-  codemirror-property: "#00ff41"             # Green properties
-  codemirror-qualifier: "#00b32e"            # Dark green qualifiers
-  codemirror-type: "#00ff41"                 # Green types
-  
-  # Shadows and elevation - subtle for industrial feel
-  ha-card-box-shadow: "0px 2px 4px 0px rgba(0, 255, 65, 0.1)" # Subtle green shadow
-  shadow-elevation-2dp_-_box-shadow: "0px 2px 2px 0px rgba(0, 255, 65, 0.05)"
-  shadow-elevation-4dp_-_box-shadow: "0px 4px 4px 0px rgba(0, 255, 65, 0.1)"
-  shadow-elevation-8dp_-_box-shadow: "0px 8px 8px 0px rgba(0, 255, 65, 0.15)"
-  shadow-elevation-16dp_-_box-shadow: "0px 16px 16px 0px rgba(0, 255, 65, 0.2)"
-  
-  # Chips
-  chip-background-color: "#1a1a1a"           # Dark chip background
-  
-  # Additional modern variables
-  modes:
-    light:
-      primary-color: "#00ff41"
-  
-  # Load custom fonts from www directory
-  # Users need to add these lines to their configuration.yaml to enable fonts:
-  # lovelace:
-  #   resources:
-  #     - url: /local/fonts/alien-fonts.css
-  #       type: css
+  # Card-mod theme
   card-mod-theme: weylandyutani
-  card-mod-root: |
-    @import url('/local/fonts/alien-fonts.css');
-    body {
-      font-family: 'Orbitron', 'Rajdhani', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    }
+  
+  # Global view styling
+  card-mod-view-yaml: |
+    .: |
+      hui-view {
+        font-family: 'Thedus Condensed', 'Orbitron', sans-serif !important;
+        background-color: #0d0a08 !important;
+      }
+  
+  # Card styling - applies to ALL cards
+  card-mod-card-yaml: |
+    .: |
+      /* Card container with terminal borders */
+      ha-card {
+        font-family: 'Thedus Condensed', 'Orbitron', sans-serif !important;
+        border: 2px solid #00ff00 !important;
+        box-shadow: 0 0 10px rgba(0, 255, 0, 0.3) !important;
+        border-radius: 0 !important;
+        background-color: #1a1410 !important;
+      }
+      
+      /* Card header - Big Wide font */
+      ha-card .card-header {
+        font-family: 'Thedus Wide', 'Audiowide', sans-serif !important;
+        font-size: 1.8em !important;
+        letter-spacing: 0.15em !important;
+        text-transform: uppercase !important;
+        border-bottom: 2px solid #00ff00 !important;
+        padding: 16px !important;
+        background: linear-gradient(180deg, #0d0a08 0%, #1a1410 100%) !important;
+      }
+      
+      /* All card content */
+      ha-card .card-content {
+        font-family: 'Thedus Condensed', 'Orbitron', sans-serif !important;
+      }
+      
+      /* All icons green */
+      ha-card ha-icon,
+      ha-card ha-state-icon,
+      ha-card state-badge {
+        color: #00ff00 !important;
+        --mdc-icon-button-size: 40px !important;
+      }
+      
+      /* Active/on state icons brighter green */
+      ha-card ha-icon[data-state="on"],
+      ha-card ha-state-icon[data-state="on"] {
+        color: #33ff33 !important;
+      }
+  
+  # Heading card specific styling
+  card-mod-card-type-heading-yaml: |
+    .: |
+      ha-card {
+        background: transparent !important;
+        border: none !important;
+        box-shadow: none !important;
+      }
+      
+      /* Heading text - Large Stencil Wide */
+      ha-card .heading {
+        font-family: 'Thedus Stencil Wide', 'Audiowide', sans-serif !important;
+        font-size: 3em !important;
+        letter-spacing: 0.2em !important;
+        text-transform: uppercase !important;
+        text-align: center !important;
+        padding: 24px !important;
+        border-top: 3px solid #00ff00 !important;
+        border-bottom: 3px solid #00ff00 !important;
+        text-shadow: 0 0 20px rgba(0, 255, 0, 0.8) !important;
+      }
+  
+  # Markdown card specific styling
+  card-mod-card-type-markdown-yaml: |
+    .: |
+      ha-card .card-content {
+        font-family: 'Thedus Condensed', 'Orbitron', sans-serif !important;
+      }
+      
+      ha-card ha-markdown {
+        font-size: 1.1em !important;
+        line-height: 1.6 !important;
+      }
+  
+  # Entities card specific styling  
+  card-mod-card-type-entities-yaml: |
+    $: |
+      /* Entity rows */
+      #states > * {
+        border-bottom: 1px solid #2a1f15 !important;
+      }
+      
+      /* All icons in entities card - green */
+      hui-generic-entity-row state-badge,
+      hui-generic-entity-row ha-icon,
+      hui-generic-entity-row ha-state-icon {
+        color: #00ff00 !important;
+      }
+      
+      /* Active state icons - brighter */
+      hui-generic-entity-row[data-state="on"] state-badge,
+      hui-generic-entity-row[data-state="on"] ha-icon,
+      hui-generic-entity-row[data-state="on"] ha-state-icon {
+        color: #33ff33 !important;
+      }
+      
+      /* Entity names - Wide Light */
+      hui-generic-entity-row .text-content .name {
+        font-family: 'Thedus Wide Light', 'Audiowide', sans-serif !important;
+        font-size: 1.2em !important;
+        letter-spacing: 0.08em !important;
+        text-transform: uppercase !important;
+      }
+      
+      /* Entity states/values - Stencil Condensed */
+      hui-generic-entity-row .text-content .state {
+        font-family: 'Thedus Stencil Condensed', 'Orbitron', sans-serif !important;
+        font-size: 1.4em !important;
+        letter-spacing: 0.1em !important;
+        font-weight: bold !important;
+      }
+      
+      /* Secondary info */
+      hui-generic-entity-row .text-content .secondary {
+        font-family: 'Thedus Condensed', 'Orbitron', sans-serif !important;
+        font-size: 0.9em !important;
+        opacity: 0.8 !important;
+      }

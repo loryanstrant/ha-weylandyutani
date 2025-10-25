@@ -13,7 +13,7 @@
 /* Thedus - Authentic display font from Alien movie */
 @font-face {
   font-family: 'Thedus';
-  src: url('/local/fonts/Thedus-Wide.otf') format('opentype');
+  src: url('/local/weylandyutani/fonts/Thedus-Wide.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -21,7 +21,7 @@
 
 @font-face {
   font-family: 'Thedus';
-  src: url('/local/fonts/Thedus-WideLight.otf') format('opentype');
+  src: url('/local/weylandyutani/fonts/Thedus-WideLight.otf') format('opentype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -29,7 +29,7 @@
 
 @font-face {
   font-family: 'Thedus';
-  src: url('/local/fonts/Thedus-Condensed.otf') format('opentype');
+  src: url('/local/weylandyutani/fonts/Thedus-Condensed.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -38,7 +38,7 @@
 
 @font-face {
   font-family: 'Thedus';
-  src: url('/local/fonts/Thedus-CondensedLight.otf') format('opentype');
+  src: url('/local/weylandyutani/fonts/Thedus-CondensedLight.otf') format('opentype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -47,7 +47,7 @@
 
 @font-face {
   font-family: 'Thedus Stencil';
-  src: url('/local/fonts/Thedus-StencilWide.otf') format('opentype');
+  src: url('/local/weylandyutani/fonts/Thedus-StencilWide.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -55,7 +55,7 @@
 
 @font-face {
   font-family: 'Thedus Stencil';
-  src: url('/local/fonts/Thedus-StencilCondensed.otf') format('opentype');
+  src: url('/local/weylandyutani/fonts/Thedus-StencilCondensed.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;

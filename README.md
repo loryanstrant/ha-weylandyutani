@@ -160,21 +160,6 @@ All fonts load automatically via card-mod when the theme is applied to a view.
 - Active/on states use brighter green (#33ff33)
 - Square state badges (no rounded corners)
 
-## Screenshots
-
-### Main Interface
-![Weyland-Yutani Theme Overview](screenshots/overview.png)
-*Full dashboard with heading card, markdown content, and entities*
-
-### Typography Demonstration
-![Font Hierarchy](screenshots/typography.png)
-*Different font variants and sizes in action*
-
-### Card Styling
-![Card Details](screenshots/cards.png)
-*Terminal borders, icons, and entity rows*
-
-> **Note**: To add your own screenshots, take screenshots of your themed views and save them in a `screenshots/` directory in the repository.
 
 ## Card Type Support
 

@@ -1,8 +1,13 @@
-![License](https://img.shields.io/github/license/loryanstrant/ha-weylandyutani)
-![HACS](https://img.shields.io/badge/HACS-Default-orange.svg)
-
-
 # Weyland-Yutani Theme for Home Assistant
+
+[![HACS](https://img.shields.io/badge/HACS-Default-41BDF5?style=flat-square)](https://github.com/hacs/integration)
+[![Release](https://img.shields.io/github/v/release/loryanstrant/ha-weylandyutani?style=flat-square)](https://github.com/loryanstrant/ha-weylandyutani/releases)
+[![Release date](https://img.shields.io/github/release-date/loryanstrant/ha-weylandyutani?style=flat-square)](https://github.com/loryanstrant/ha-weylandyutani/releases)
+[![License](https://img.shields.io/github/license/loryanstrant/ha-weylandyutani?style=flat-square)](LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/loryanstrant/ha-weylandyutani?style=flat-square)](https://github.com/loryanstrant/ha-weylandyutani/commits)
+[![Stars](https://img.shields.io/github/stars/loryanstrant/ha-weylandyutani?style=flat-square)](https://github.com/loryanstrant/ha-weylandyutani/stargazers)
+
+[![Open in HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=loryanstrant&repository=ha-weylandyutani&category=theme)
 
 A dark, industrial Home Assistant theme inspired by the computer terminals and aesthetic from the Alien film series, themed around the Weyland-Yutani corporation.
 
@@ -13,7 +18,6 @@ Pairs nicely with the [MU/TH/UR 6000 series of cards](https://github.com/loryans
 Transform your Home Assistant interface into a Weyland-Yutani corporation terminal with this retro-futuristic theme. Features terminal green text on authentic CRT-style brown-tinted backgrounds, reminiscent of the iconic computer screens from the USCSS Nostromo and other Weyland-Yutani installations.
 
 <img width="707" height="191" alt="image" src="https://github.com/user-attachments/assets/1afbf466-27f0-4632-bfee-c686998db578" />
-
 
 ## Features
 
@@ -30,7 +34,6 @@ Transform your Home Assistant interface into a Weyland-Yutani corporation termin
 - 📐 **Visual Hierarchy**: Different font sizes and weights for titles, values, and content
 - 🔲 **Terminal Borders**: Card borders with green glow effects like classic displays
 - ⚡ **Card-Mod Integration**: Advanced styling using HACS card-mod for shadow DOM piercing
-
 
 ## Installation
 
@@ -161,7 +164,6 @@ All fonts load automatically via card-mod when the theme is applied to a view.
 - All icons colored terminal green (#00ff00)
 - Active/on states use brighter green (#33ff33)
 - Square state badges (no rounded corners)
-
 
 ## Card Type Support
 

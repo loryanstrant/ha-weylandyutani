@@ -1,0 +1,272 @@
+{
+  "schema_version": "1.0",
+  "repository": "ha-weylandyutani",
+  "identity": {
+    "description": "A dark, industrial Home Assistant theme inspired by the computer terminals and aesthetic from the Alien film series, themed around the Weyland-Yutani corporation.",
+    "default_branch": "main",
+    "languages": {},
+    "topics": [],
+    "licence": "MIT License",
+    "file_count": 17
+  },
+  "start_here": {
+    "readme": "README.md",
+    "agents_md": "AGENTS.md",
+    "entry_points": [],
+    "decision_records": [],
+    "build_config": [
+      "hacs.json"
+    ],
+    "source_roots": []
+  },
+  "documentation": [
+    {
+      "path": ".github/copilot-instructions.md",
+      "title": "Copilot instructions — ha-weylandyutani",
+      "lines": 32,
+      "headings": [
+        {
+          "level": 2,
+          "text": "What this repo is",
+          "anchor": "what-this-repo-is"
+        },
+        {
+          "level": 2,
+          "text": "Repo shape",
+          "anchor": "repo-shape"
+        },
+        {
+          "level": 2,
+          "text": "Conventions (theme, not component)",
+          "anchor": "conventions-theme-not-component"
+        },
+        {
+          "level": 2,
+          "text": "Never",
+          "anchor": "never"
+        }
+      ]
+    },
+    {
+      "path": "README.md",
+      "title": "Weyland-Yutani Theme for Home Assistant",
+      "lines": 322,
+      "headings": [
+        {
+          "level": 2,
+          "text": "Overview",
+          "anchor": "overview"
+        },
+        {
+          "level": 2,
+          "text": "Features",
+          "anchor": "features"
+        },
+        {
+          "level": 2,
+          "text": "Installation",
+          "anchor": "installation"
+        },
+        {
+          "level": 3,
+          "text": "Prerequisites",
+          "anchor": "prerequisites"
+        },
+        {
+          "level": 3,
+          "text": "HACS Installation (Recommended)",
+          "anchor": "hacs-installation-recommended"
+        },
+        {
+          "level": 3,
+          "text": "Manual Installation",
+          "anchor": "manual-installation"
+        },
+        {
+          "level": 2,
+          "text": "Usage",
+          "anchor": "usage"
+        },
+        {
+          "level": 3,
+          "text": "Applying to a View",
+          "anchor": "applying-to-a-view"
+        },
+        {
+          "level": 3,
+          "text": "Setting as Profile Default",
+          "anchor": "setting-as-profile-default"
+        },
+        {
+          "level": 3,
+          "text": "Setting as System Default",
+          "anchor": "setting-as-system-default"
+        },
+        {
+          "level": 2,
+          "text": "Typography System",
+          "anchor": "typography-system"
+        },
+        {
+          "level": 3,
+          "text": "Font Hierarchy (Alien-Inspired)",
+          "anchor": "font-hierarchy-alien-inspired"
+        },
+        {
+          "level": 3,
+          "text": "Thedus Font Variants",
+          "anchor": "thedus-font-variants"
+        },
+        {
+          "level": 3,
+          "text": "Fallback Fonts",
+          "anchor": "fallback-fonts"
+        },
+        {
+          "level": 2,
+          "text": "Visual Design",
+          "anchor": "visual-design"
+        },
+        {
+          "level": 3,
+          "text": "Color Palette",
+          "anchor": "color-palette"
+        },
+        {
+          "level": 3,
+          "text": "Design Elements",
+          "anchor": "design-elements"
+        },
+        {
+          "level": 2,
+          "text": "Card Type Support",
+          "anchor": "card-type-support"
+        },
+        {
+          "level": 2,
+          "text": "Technical Details",
+          "anchor": "technical-details"
+        },
+        {
+          "level": 3,
+          "text": "card-mod Integration",
+          "anchor": "card-mod-integration"
+        },
+        {
+          "level": 3,
+          "text": "Browser Compatibility",
+          "anchor": "browser-compatibility"
+        },
+        {
+          "level": 3,
+          "text": "Performance",
+          "anchor": "performance"
+        },
+        {
+          "level": 2,
+          "text": "Troubleshooting",
+          "anchor": "troubleshooting"
+        },
+        {
+          "level": 3,
+          "text": "Fonts Not Loading",
+          "anchor": "fonts-not-loading"
+        },
+        {
+          "level": 3,
+          "text": "Icons Not Green",
+          "anchor": "icons-not-green"
+        },
+        {
+          "level": 3,
+          "text": "Styling Not Applied",
+          "anchor": "styling-not-applied"
+        },
+        {
+          "level": 2,
+          "text": "Compatibility",
+          "anchor": "compatibility"
+        },
+        {
+          "level": 2,
+          "text": "Development",
+          "anchor": "development"
+        },
+        {
+          "level": 3,
+          "text": "Repository Structure",
+          "anchor": "repository-structure"
+        },
+        {
+          "level": 3,
+          "text": "Testing",
+          "anchor": "testing"
+        },
+        {
+          "level": 3,
+          "text": "Contributing",
+          "anchor": "contributing"
+        },
+        {
+          "level": 2,
+          "text": "About Weyland-Yutani",
+          "anchor": "about-weyland-yutani"
+        },
+        {
+          "level": 2,
+          "text": "Development Approach",
+          "anchor": "development-approach"
+        },
+        {
+          "level": 2,
+          "text": "License",
+          "anchor": "license"
+        },
+        {
+          "level": 2,
+          "text": "Acknowledgments",
+          "anchor": "acknowledgments"
+        },
+        {
+          "level": 2,
+          "text": "Support",
+          "anchor": "support"
+        }
+      ]
+    },
+    {
+      "path": "screenshots/README.md",
+      "title": "Screenshots",
+      "lines": 19,
+      "headings": [
+        {
+          "level": 2,
+          "text": "How to Add Screenshots",
+          "anchor": "how-to-add-screenshots"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "source_roots": [],
+    "symbol_source": "direct source scan (no repomix available)",
+    "routes": [],
+    "files": []
+  },
+  "tests": [],
+  "operations": [
+    ".github/workflows/validate.yaml"
+  ],
+  "limitations": {
+    "unparsed_languages": [],
+    "excluded_dirs": [],
+    "code_map_truncated": false,
+    "code_map_symbols_capped": false,
+    "tracked_files_only": true
+  },
+  "generated": {
+    "source_commit": "32e1da0c8e53f97c84ad5512a183b6b9e895d49c",
+    "content_hash": "4112d1bdc633d7a8",
+    "generator": "navgen"
+  }
+}
